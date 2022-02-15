@@ -353,16 +353,16 @@ outline: none;
 .header__search{
     border:none;
     padding-bottom: 0.36vw;
-    width: 9.90vw;
+    width: 7.9vw;
     position: relative;
     left: 1.30vw;
+    margin-right: 2vw;
     }
 .header__card{
-    width: 1.25vw;
-    height: 1.25vw;
+    width: 2.25vw;
+    height: 2.25vw;
     position: relative;
     left: 1.09vw;
-    top: 0.52vw;
 } 
 .header__li-card{
     background-color: #E9EFF1;
@@ -372,7 +372,7 @@ outline: none;
 .header__card-title{
 margin-right: 1.04vw;
 position: relative;
-left: 1.77vw;
+left: 1.2vw;
 top: 0.83vw;
 font-family: 'Exo2 SemiBold';;
 font-style: normal;
@@ -412,6 +412,14 @@ font-size: 0.83vw;
 float: right;
 top: 0.4vw;
 position: relative;
+}
+.print__fast-printing{
+    font-family: "Exo2 Bold";
+    font-weight: bold;
+    font-size: 1.56vw;
+    position: relative;
+    left: 1.4vw;
+    top: 1.55vw;
 }
 
 .footer__container{
@@ -628,7 +636,7 @@ position: relative;
  .print__printing-label{
     font-family: 'Exo2 Regular';
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1.56vw;
     margin: 0 auto;
     width: 15vw;
@@ -1332,6 +1340,7 @@ flex-direction: row;
         border-width: 1px;
        font-size: 1vw;
     }
+    
 .order__steps1 {
     top: -4vw;}
 

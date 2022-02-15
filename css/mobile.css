@@ -106,10 +106,16 @@
     left: 15vw;
     top: 2vw;
 }
+
+.print__svg-arrows{
+   float: none;
+   left: 25vw; 
+}
 .print__svg-arrow{
-    float: initial;
     width: 10vw;
     height: 4vw;
+    left: 85vw;
+    top: -5vw;
 }
 .print__nav{
     position: absolute;

@@ -93,7 +93,7 @@
    
 }
 .print__li{
-    width: 127.67vw;
+    width: 154.67vw;
     height: 15vw;
     white-space: nowrap;
 }
@@ -113,7 +113,7 @@
 }
 .print__nav{
     position: absolute;
-    left: -115vw;
+    left: -145vw;
     z-index: 5;
 }
 .print__nav{

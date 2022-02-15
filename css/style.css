@@ -1399,6 +1399,9 @@ flex-direction: row;
     font-size: 1.4vw;
 }
 }
+.header__form-search{
+    display: none;
+}
 .partners{
     max-width: 100%;
     overflow: hidden;

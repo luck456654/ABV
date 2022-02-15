@@ -1,20 +1,77 @@
 @media(max-width:320px){
+    body{
+        background-color: #FEFEFE;
+    }
     .header__block-address, .header__block-working,
     .header__block-mail, .header__button, 
     .header__block-ring, .header__container-schedule,
     .header__bottom, .print__right{
         display: none;
 }
-.header__burger, .header__tel{
+.header__burger, .header__tel, .header__form-search{
     display: flex;
+}
+.header__form-button:hover{
+    background-color: #023597;
 }
 .header{
     overflow: visible;
+}
+.header__form-search{
+    background-color: white;
+    flex-direction: column;
+}
+.header__search-wrapper{
+    display: flex;
+    flex-direction: row;
 }
 .header__tel{
     position: relative;
     left: 17vw;
     top: 0.3vw;
+}
+.header__search-form{
+    position: relative;
+    left: 31vw;
+    top: 7vw;
+}
+.header__searchaddres-tel{
+    position: relative;
+    left: 34vw;
+    top: 6vw;
+    font-size: 4.7vw;
+    font-family: 'Exo2 Regular';
+    line-height: 5vw;
+}
+.header__search__email{
+    left: -1vw;
+    position: relative;
+    top: 3vw;
+}
+.header__search-mail{
+    position: relative;
+    left: 34vw;
+    top: 9vw;
+    font-family: 'Exo2 Regular';
+    color: black;
+}
+.header__form-button{
+    border-radius: 5vw 0px;
+    width: 66.29vw;
+    height: 12.6vw;
+    position: relative;
+    top: 43.6vw;
+    left: -21vw;
+    font-size: 4.5vw;
+    background-color: #004DE1;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: "Exo2 Regular";
+}
+.header__search-icontel {
+    width: 5.63vw;
+    height: 5.63vw
 }
 .header__top {
     display: flex;
@@ -659,6 +716,19 @@ footer {
     top: -1vw;
     font-family: "Exo2 Regular";
 }
-
-
+.header__form-search{
+    width: 155%;
+    height: 67.77vw;
+    background-color: white;
+    overflow: hidden;
+    position: absolute;
+    z-index: 7;
+}
+.header__form-search{
+    transform: translateY(-100vw);
+}
+.print{
+    width: 109%;
+    overflow: hidden;
+}
 }

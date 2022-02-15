@@ -283,25 +283,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 5vw;
+    width: 89vw;
     top: -10vw;
     text-align: center;
     left: 14vw;
 
 }
-.advantages__production-desc {
-    width: 4vw;
-    font-family: 'Exo2 Regular';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 5.04vw;
-    position: relative;
-    top: -13.3vw;
-    left: 1vw;
-    width: 17.2vw;
-    left: 12.7vw;
-    text-align: center;
-}
+
 .advantages__production {
 position: relative;
 left: -0.5vw;
@@ -310,14 +298,26 @@ font-size: 4.4vw;
 top: -5.8vw;
 }
 .advantages__production-desc {
-font-size: 3.04vw;
+    font-size: 3.04vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 5vw;
+    width: 34vw;
     top: -10vw;
     text-align: center;
-    left: 11vw;
+    left: 6vw;
+    line-height: 3vw;
+    
+}
+.advantages__place-desc{
+    font-size: 3.04vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 42vw;
+    top: -10vw;
+    text-align: center;
+    left: 2vw;
 }
 .advantages__pagination{
     left: -4vw!important;
@@ -730,5 +730,9 @@ footer {
 .print{
     width: 109%;
     overflow: hidden;
+}
+.advantages__quality-descp{
+    position: relative;
+    left: -47vw;
 }
 }

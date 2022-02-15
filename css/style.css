@@ -1237,8 +1237,8 @@ flex-direction: row;
     font-size: 14px;
     line-height: 149.8%;
     color: #282828;
-    top: 0;
-    left: 2.7vw;
+    top: -0.1vw;
+    left: 2.3vw;
 }
 
 @media(max-width:1366px){

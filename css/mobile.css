@@ -119,6 +119,7 @@
 .print__nav{
     width: 100vw;
     overflow: initial;
+    z-index: 15;
 }
 .swiper3{
         width: 109vw;

@@ -851,9 +851,11 @@ top: 0.55vw;
     display: none;
 }
 .swiper {
-    width: 100vw;
+    width:57vw;
     background-color:  #FEFEFE;
     overflow: hidden;
+    position: relative;
+    left: -2vw;
   }
   .swiper2 {
     width: 100vw;
@@ -987,8 +989,9 @@ margin-right: 1vw;
 }
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
     bottom: 1.4vw;
-    left: -24vw;
+    left: -2vw!important;
     width: 100%;
+    overflow: hidden;
 }
 .order__title{
     font-family: 'Exo2 Bold';

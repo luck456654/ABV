@@ -776,6 +776,8 @@ top: 0.55vw;
     top: -1.3vw;
     left: 1vw;
     width: 16.2vw;
+    text-align: center;
+    left: -1vw;
 }
 .advantages__carts{
     display: flex;
@@ -790,19 +792,32 @@ top: 0.55vw;
     text-align: center;
     position: relative;
     left: -2vw;
-    top: -0.2vw; 
+    top: 0vw;
 }
 .advantages__production-desc{
-    width: 4vw;
     font-family: 'Exo2 Regular';
     font-style: normal;
     font-weight: normal;
     font-size: 1.04vw;
     position: relative;
-    top: -1.3vw;
-    left: 1vw;
     width: 17.2vw;
     left: -0.3vw;
+    text-align: center;
+    left: -2vw;
+    line-height: 0.5vw;
+    top: -0.3vw;
+}
+.advantages__production-ttk{
+    line-height: 1.5vw;
+}
+.advantages__team-profi{
+    left: -2vw;
+    top: -0.81vw;
+}
+.advantages__profi-desc{
+    left: -2vw;
+    line-height: 1.5vw;
+    top: -2vw;
 }
 .advantages__cart-production{
     margin-right: 2.7vw;
@@ -1211,6 +1226,16 @@ flex-direction: row;
 }
 .footer__copyright{
     display: none;
+}
+.footer__create-site{
+    font-family: 'Exo2 Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 149.8%;
+    color: #282828;
+    top: 0;
+    left: 2.7vw;
 }
 
 @media(max-width:1366px){

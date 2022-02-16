@@ -380,7 +380,8 @@ font-size: 0.94vw;
 .header__donwload-label{
     position: relative;
     top: -4.2vw;
-    left: 0.8vw
+    left: 0.8vw;
+    color:#004DE1;
     }
 .header__download-desc{
     font-size: 1vw;

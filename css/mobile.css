@@ -771,4 +771,7 @@ footer {
     position: relative;
     left: -47vw;
 }
+.header__write-us{
+    display: none;
+}
 }

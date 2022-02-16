@@ -112,7 +112,7 @@ input{
 body{
     background-color:  #FEFEFE;
 }
-.header__bottom-link:hover{
+.header__bottom-link:hover, .header__form-button:hover{
     background-color: #023597;
     cursor: pointer;
 }
@@ -285,6 +285,69 @@ body{
     position: relative;
     top: -0.21vw;
 }
+.header__write-us{
+    background-color: rgba(102, 102, 102, 0.5);;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    height: 250%;
+    width: 100vw;
+    display: none;
+    }
+.header__form-writeus{
+    width: 39.53vw;
+    height: 49.27vw;
+    background-color: white;
+    margin: 0 auto;
+    top: 35vw;
+    position: relative;
+    top: 11vw;
+}
+.header__form-title{
+    top: 0.8vw;
+    font-family: 'Exo2 Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-align: center;
+    position: relative;
+    left: 1vw;
+}
+.header__form-container{
+    padding: 0vw 3vw 2vw 4.4vw;
+}
+.header__form-desc{
+    font-family: 'Exo2 Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.94vw;
+    text-align: center;
+    }
+
+.header__form-input::placeholder{
+font-family: "Exo2 Regular";
+font-style: normal;
+font-weight: normal;
+font-size: 0.94vw;
+}
+.header__form-label{
+    font-size: 1vw;
+    font-family: "Exo2 Bold";
+}
+.header__form-input{
+    width: 30.3vw;
+    height: 2.5vw;
+    margin-bottom: 0.2vw;
+    position: relative;
+    top: -0.2vw;
+    padding-left: 1vw;
+    border: 1px solid #7594B4;
+    border-radius: 0.52vw;
+}
+.header__form-write{
+    top: 1vw;
+    position: relative;
+}
 .header__bottom-link{
     background-color:  #004DE1;
     font-family: 'Exo2 SemiBold';
@@ -297,6 +360,97 @@ body{
     align-items: center;
     display: flex;
     justify-content: space-around;
+}
+.header__download{
+    width: 31.63vw;
+    height:6.15vw;
+    border: 1px solid #7594B4;
+    box-sizing: border-box;
+    border-radius: 0.52vw;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+.header__download-svg{
+    left: -3.3vw;
+    width: 2vw;
+    height: 6vw;
+    position: relative;
+}
+
+.header__donwload-label{
+    position: relative;
+    top: -4.2vw;
+    left: 0.8vw
+    }
+.header__download-desc{
+    font-size: 1vw;
+    top: -1.8vw;
+    position: relative;
+}
+.header__form-desc{
+    left: -0.5vw;
+    font-family: "Exo2 Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.94vw;
+    position: relative;
+}
+.header__label-com{
+    top: 1.4vw;
+    position: relative;
+    left: -0.2vw;
+    font-size: 1.1vw;
+    font-family: "Exo2 Bold";
+}
+.header__form-textarea{
+    top: 2vw;
+    border-radius: 0.52vw;
+    width: 29.5vw;
+    height: 4vw;
+    position: relative;
+    padding-left: 1vw;
+    padding-top: 0.7vw;
+}
+.header__form-textarea::placeholder{
+    font-family: "Exo2 Regular";
+    font-weight: normal;
+}
+.header__checkbox-block{
+    display: flex;
+    flex-direction: row;
+    position: inherit;
+    left: 2vw;
+    top: -0.6vw;
+    font-size: 1vw;
+}
+.header__checkbox{
+    width: 1vw;
+    height: 2vw;
+    position: relative;
+    top: 2vw;
+}
+.header__checkbox-block{
+    font-family: 'Exo2 Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.94vw;
+}
+.header__checkbox__linck{
+    color: #306EE6;
+}
+.header__form-button{
+    background: #004DE1;
+    border: 0.05vw solid #004DE1;
+    box-sizing: border-box;
+    border-radius: 1.04vw 0px;
+    width: 12.2vw;
+    height: 2.6vw;
+    color: white;
+    font-family: 'Roboto Regular';
+    font-size: 0.83vw;
+    font-weight: normal;
+    position: relative;
+    top: -0.21vw;
 }
 .header__bottom{
     padding: 0.89vw 14.27vw 0 12.24vw;

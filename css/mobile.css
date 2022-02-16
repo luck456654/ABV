@@ -171,25 +171,27 @@
     }
 
 .print__printing {
-    background-image: url("../img/fast-printing.png");
+    background-image: url(../img/fast-printing.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 108vw;
+    width: 105vw;
     height: 52vw;
     margin-bottom: 4vw;
+    top: -6vw;
 }
 .print__text-february23 {
     background-color: #CDEAF7;
     color: black;
     width: 5vw;
-    height: 54.82vw;
+    height: 55vw;
     position: relative;
-    left: -1.5vw;
+    left: -4.5vw;
     top: 0.5vw;
-    width: 56.6vw;
+    width: 60.6vw;
+    margin-right: -3vw;
 }
 .print__print-february23 {
-    width: 50vw;
+    width: 55vw;
     height: 55vw;
     overflow: initial;
 }
@@ -215,6 +217,30 @@
     top: 2vw;
     border-radius: 20px 0px;
     font-size: 4vw;
+}
+.print__label-printing{
+    font-family: "Exo2 Bold";
+    white-space: nowrap;
+    position: relative;
+    top: 0vw;
+    left: -3vw;
+
+}
+.print__february23 {
+    position: relative;
+    height: 11.82vw;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.4vw;
+    top: -6vw;
+    width: 103vw;
+}
+.print__shabolovka{
+    position: relative;
+    font-family: "Exo2 Regular";
+    font-weight: normal;
+    top: -6vw;
+    left: -3vw;
 }
 .advantages__carts, .advantages__carts-still{
     display: none;

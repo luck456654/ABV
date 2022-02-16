@@ -405,11 +405,13 @@ font-size: 0.94vw;
 .header__form-textarea{
     top: 2vw;
     border-radius: 0.52vw;
-    width: 29.5vw;
+    width: 31vw;
     height: 4vw;
     position: relative;
     padding-left: 1vw;
     padding-top: 0.7vw;
+    border: 1px solid #7594B4;
+    border-radius: 0.52vw;
 }
 .header__form-textarea::placeholder{
     font-family: "Exo2 Regular";
@@ -1415,6 +1417,15 @@ flex-direction: row;
 .print__print-withfoto {
     width: 13.3vw;
 }
+.header__form-writeus {
+    height: 54.27vw;
+}
+.header__download-svg {
+    left: -4.3vw;
+}
+.header__checkbox {
+    top: 2.5vw;
+}
 }
 @media(max-width:1024px){
     .print__print-february23 {
@@ -1476,6 +1487,15 @@ flex-direction: row;
         position: relative;
         width: 0.4vw;
 }
+    .header__form-writeus {
+        height: 59.27vw;
+    }
+    .header__download-svg {
+        left: -5.3vw;
+    }
+    .header__checkbox {
+        top: 3vw;
+    }
 }
     @media(max-width:768px){
     .footer__icon-email {
@@ -1552,6 +1572,15 @@ flex-direction: row;
 } 
 .product__price{
     font-size: 1.4vw;
+}
+.header__form-writeus {
+    height: 68.27vw;
+}
+.header__download-svg {
+    left: -7.3vw;
+}
+.header__checkbox {
+    top: 3.5vw;
 }
 }
 .header__form-search{

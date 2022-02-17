@@ -1130,7 +1130,8 @@ margin-right: 1vw;
     left: -0.5vw;
     left: 0vw;
     z-index: 3;
-    position: relative
+    position: relative;
+    cursor: pointer;
 }
 .swiper-button-nextt{
     background-image: url("../img/buttonnext1.png");
@@ -1141,6 +1142,7 @@ margin-right: 1vw;
     top:-13.63vw;
     left: 51.5vw;
     z-index: 3;
+    cursor: pointer;
 }
 .swiper-horizontal>.swiper-scrollbar {
     width: 0;

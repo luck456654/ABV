@@ -6,3 +6,5 @@
 git clone https://github.com/luck456654/ABV.git </li>
 <li>зайдите в получившуюся папку и запустите запустите файл index.html</li>
 </ol>
+
+Демонстрация работы приложения https://luck456654.github.io/ABV/

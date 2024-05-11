@@ -557,7 +557,7 @@ top: -5.8vw;
     font-size: 4.5vw;
 }
 .order__container {
-    padding: 0vw 13vw 5.6vw 32.6vw;
+    padding: 6vw 13vw 5.6vw 32.6vw;
     width: 109vw;
     overflow: hidden;
 }
@@ -575,10 +575,6 @@ top: -5.8vw;
 }
 .swiper2{
     display: none;
-}
-.partners {
-    width: 131%;
-    overflow: inherit;
 }
 .partners__pak{
     position: relative;
@@ -725,8 +721,7 @@ left: -3.5vw;
 }
 footer {
     max-width: 100%;
-    overflow: inherit;
-}
+   }
 .footer__container{
     width: 140vw;
     overflow-x: hidden;
@@ -773,5 +768,10 @@ footer {
 }
 .header__write-us{
     display: none;
+}
+.header,.print,.advantages,.product,.order,.partners.footer,main{
+    width: 100vw!important;
+    max-width: 100vw!important;
+    overflow: hidden!important;
 }
 }

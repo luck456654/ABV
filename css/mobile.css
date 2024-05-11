@@ -27,7 +27,7 @@
 }
 .header__tel{
     position: relative;
-    left: 17vw;
+    left: 6vw;
     top: 0.3vw;
 }
 .header__search-form{
@@ -81,9 +81,9 @@
     margin-bottom: 1vw;
 }
 .header__logo {
-    width: 51.7vw;
-    height: 10.66vw;
-    left: 10vw;
+    width: 41.7vw;
+    height: 8.66vw;
+    left: 6vw;
     position: relative;
 }
 .print{

@@ -118,10 +118,11 @@
     }
 
     .print__li {
-        width: 154.67vw;
+        width: 132.67vw;
         height: 15vw;
         padding-left: 25vw;
         white-space: nowrap;
+
     }
 
     .print__left-menu {

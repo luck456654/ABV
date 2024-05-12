@@ -927,4 +927,8 @@
         max-width: 100vw !important;
         overflow: hidden !important;
     }
+    .print__menu-label {
+        left: 26.61vw;
+        width: 9.65vw;
+}
 }

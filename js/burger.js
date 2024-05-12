@@ -7,7 +7,7 @@ let i=0;
 function openburger(){
    
     if(i==0){
-    nav.style.transform="translateX(509px)";
+    nav.style.transform="translateX(132vw)";
     nav.style.transition="transform 2s linear";
     burger.src="img/burger-close.png";
     i=1;
@@ -15,7 +15,7 @@ function openburger(){
     else{
         burger.src="img/burger-icon.png";
         i=0;
-    nav.style.transform="translateX(-509px)";
+    nav.style.transform="translateX(-132vw)";
     nav.style.transition="transform 2s linear";    
     }
 }

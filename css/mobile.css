@@ -929,6 +929,9 @@
     .print__menu-label {
         width: 9.65vw;
 }
+.partners__line,.partners__gtd{
+    top: 0;
+}
 }
 @media (max-width:374px) {
     .print__li {

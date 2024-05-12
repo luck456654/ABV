@@ -933,3 +933,8 @@
         width: 9.65vw;
 }
 }
+@media (max-width:374px) {
+    .print__li {
+        padding-left: 0vw;
+    }  
+}

@@ -139,12 +139,13 @@
     .print__svg-arrows {
         float: none;
         left: 25vw;
+        margin-right: 5vw;
     }
 
     .print__svg-arrow {
         width: 10vw;
         height: 4vw;
-        left: 85vw;
+        left: 74vw;
         top: -5vw;
     }
 
@@ -935,6 +936,6 @@
 }
 @media (max-width:374px) {
     .print__li {
-        padding-left: 0vw;
+        padding-left:24vw;
     }  
 }

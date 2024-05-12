@@ -120,6 +120,7 @@
     .print__li {
         width: 154.67vw;
         height: 15vw;
+        padding-left: 25vw;
         white-space: nowrap;
     }
 
@@ -928,7 +929,6 @@
         overflow: hidden !important;
     }
     .print__menu-label {
-        left: 26.61vw;
         width: 9.65vw;
 }
 }
